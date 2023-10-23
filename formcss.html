@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google form</title>
+    <style>
+        body{
+            background-color: #ede7f6;
+            font-family: roboto,sans-serif;
+        }
+        .form{
+            padding-left: 600px;
+            margin:15px;
+
+        }
+        .name{
+            width:500px;
+            padding:12px 10px 12px;
+            border:none;
+            
+        }
+       
+        .titlediv{
+            width:600px;
+            background-color: #FDFEFE;
+            padding-left: 50px;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            margin:15px;
+            border-radius:8px;
+            border-top:9px solid #6703c4;
+        }
+        .namediv,.rolldiv,.maildiv,.gendiv,.coursediv,.clgdiv,.branchdiv{
+            width:600px;
+            background-color: #FDFEFE;
+            padding-left: 40px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            margin:15px;
+            border-radius:8px;
+            padding-right: 10px;
+            border:none;
+            
+           
+        }
+        .roll{
+            padding:12px 10px 12px;
+        }
+        .mail,.gen,.co,.br,.cl{
+            padding:12px 10px 12px;
+        }
+        .req{
+            color:red;
+            font-size: 12px;
+        }
+        input[type=text]{
+            width:500px;
+            border:none;
+            border-bottom: 1.5px solid #DCD7D7;
+            padding-left: 20px;
+            padding-top: 10px;
+            
+            
+        } 
+       input[type=email]{
+            width:500px;
+            border:none;
+            border-bottom: 1.5px solid #DCD7D7;
+            padding-left: 20px;
+            padding-top: 10px;
+            
+        }  
+        button{
+            padding:10px;
+            margin-left: 30px;
+            background-color: #6703c4;
+            color:white;
+            border-radius: 5px;
+            border:none;
+        
+        }
+        .term{
+            font-size: 10px;
+            padding-left: 65px;
+            position: relative;
+            top:0px;
+            white-space: nowrap;
+
+           
+           
+        }
+        .never{
+           padding-left: 15px;
+           padding-top: 0px;
+           font-size: 14px;
+           font-weight: 200;
+           
+           
+    
+        }
+        h2{
+            text-align: center;
+            font-size: large;
+            color:#a2a4a6;
+            margin-top: 0px;
+            font-family: sans-serif;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class = "form">
+        <div class = "titlediv">
+            <h1>College Info</h1>
+            <p>Google form using HTML and CSS</p>
+            <p style="color:red">* Required</p>
+        </div>
+    
+    <div class = "namediv">
+        <div class = "name">Enter Your Name <span class = "req">*</span></div>
+        <input type = "text" name = "nam" placeholder="Your Name">
+    </div>
+    <div class = "rolldiv">
+        <div class = "roll">College Roll Number <span class = "req">*</span></div>
+      <input type ="text" name = "nam" placeholder="Your rollnumber">
+    </div>
+    <div class = "maildiv">
+        <div class = "mail">Enter Your E-mail <span class = "req">*</span></div>
+        <input type ="email" name = "nam" placeholder="Your E-mail">
+    </div>
+    <div class = "gendiv">
+        <div class = "gen">Gender</div>
+        <input type ="radio" name = "nam"><span>Male</span>
+        <input type="radio" name = "nam"><span>Female</span>
+    </div>
+    <div class = "coursediv">
+        <div class = "co">Course <span class = "req">*</span></div>
+        <input type ="text" name = "nam" placeholder="Your course">
+    </div>
+    <div class = "branchdiv">
+        <div class = "br">Branch <span class = "req">*</span></div>
+        <input type ="text" name = "nam" placeholder="Your branch">
+        
+    </div>
+    <div class = "clgdiv">
+        <div class = "cl">College Name <span class = "req">*</span></div>
+        <input type = "text" name = "na" placeholder="Your college Name">
+    </div>
+    <div>
+    <button>Submit</button>
+    </div>
+    
+        <p class = "never">Never submit your passwords through Google forms</p>
+        <p class = "term">This content is neither created nor endorsed by Google Report Abuse-Terms of service-Privacy policy</p>
+        <h2>Google Forms</h2>
+    
+</body>
+</html>
